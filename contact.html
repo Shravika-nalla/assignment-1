@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Contact
+        </title>
+        <link rel="icon" href="logo.png">
+        <style>
+            h1{
+                text-align: center;
+                font-size: 50px;
+                font-family: serif;
+                color: #151E3D;
+            }
+            .img{
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                background-image: url("background\ img.jpg");
+                background-size:cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                filter: blur(7px);
+                z-index: -1;
+            }
+            form{
+                display: contents;
+            }
+            .name,.email,.number,.message,.date{ 
+                                color:#2C3E4C;
+                                font-size: 25px;
+                                font-family: arial;
+                                display: block;
+                                margin-left: 20px;
+                                padding-left: 0%;
+                                padding-right: 20%;
+                                padding-top: 0%;
+                                padding-bottom: 1%;
+                                border-radius: 10px;
+            }
+            .message{
+                padding-left: 0%;
+                padding-top: 0%;
+                padding-bottom: 4%;
+                padding-right: 20%;
+            }
+            input[placeholder]{
+                font-size: 15px;
+                padding-left: 8px;
+                padding-top: 6px;
+            }
+            input[type=submit]{
+                background-image: linear-gradient(to bottom right,#F6EA41,#F048C6);
+                color: #0A1172;
+                padding: 12px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-left: 45%;
+            }
+            input[type=submit]:hover{
+                background-image:linear-gradient(to top left,#F6EA41,#F048C6);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="img"></div>
+        <div id="contact">
+            <h1>Contact Form</h1>
+            <form>
+                <label for="name" class="name">First Name</label>
+                <input type="text"  class="name" placeholder="enter your name" >
+                <br><br>
+                <label for="name" class="name">second Name</label>
+                <input type="text"  class="name" placeholder="enter your last name" >
+                <br><br>
+                <label for="email" class="email">Email</label>
+                <input type="email" class="email" placeholder="enter your email">
+                <br><br>
+                <label for="date" class="date">Date of the appointment</label>
+                <input type="date" placeholder="dd-mm-yyyy" class="date">
+                <br><br>
+                <label for="number" class="number">Mobile number</label>
+                <input type="number"  class="number" placeholder="enter your mobile number">
+                <br><br>
+                <input type="text" placeholder="Type your message"  class="message">
+                <br>
+                <input type="submit">
+            </form>
+        </div>    
+    </body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           My Projects
+        </title>
+        <link rel="icon" href="logo.png">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            } 
+            body{
+                background-image: linear-gradient(to bottom right,#CCFBFF,#EF96C5);
+            }
+            .cards-container{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 25px;
+                margin-top: 50px;
+            }
+            .card{
+                width: 325px;
+                background-color: #7BD5F5;
+                border-radius: 20px;
+                box-shadow: 0px,2px,4px,rgba(0,0,0,0.3);
+                overflow: hidden;
+                transition: transform 0.6s ease;
+            }
+            .card:hover{
+                transform: translateY(-20px);
+            }
+            .card img{
+                width: 100%;
+                height: 50%;
+                object-fit: cover;
+            }
+            .card-content{
+                padding: 20px;
+                text-align: center;
+            }
+            .card-content h1{
+                font-size: 24px;
+                margin-bottom: 10px; 
+                text-align: center; 
+                text-transform: uppercase;              
+            }
+            .card-content p{
+                font-size: 18px;
+                color: #666;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .card-button{
+                display: inline-block;
+                background-image: linear-gradient(to bottom right,#FED0C5,#8B47B5);
+                color: white;
+                text-decoration: none;
+                padding: 7px;
+                border-radius: 15px;
+            }
+            .card-button:hover{
+                background-image: linear-gradient(to top left,#FED0C5,#8B47B5);
+            }
+            .card-button:visited{
+                background-color: #8B47B5;
+            }
+            h2{
+                text-align: center;
+                text-decoration: dotted;
+                font-size: 60px;
+                font-family: serif;
+                position: relative;
+                padding-top: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>MY PROJECTS</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="C:\Users\nalla\OneDrive\Desktop\web dev\images 2.jpeg">
+                <div class="card-content">
+                    <h1>Learning management system</h1>
+                    <p>Creating a online learning system.</p>
+                    <a class="card-button" href="moreinfo.html">Visit</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="c:\Users\nalla\OneDrive\Desktop\web dev\images 3.jpeg">
+                <div class="card-content">
+                    <h1>Website monitoring application</h1>
+                    <p>An application that monitors website for downtime and speed test.</p>
+                    <a class="card-button" href="moreinfo.html">Visit</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images 5.png">
+                <div class="card-content">
+                    <h1>newsletter service</h1>
+                    <p>Several services like Mailchimp are available to collect emails and you can also create your web.</p>
+                    <a class="card-button" href="moreinfo.html">Visit</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images 4.jpeg">i
+                <div class="card-content">
+                    <h1>project management dashboard</h1>
+                    <p>A dashboard to manage project activities,track progress and assign task to team members.</p>
+                    <a class="card-button" href="moreinfo.html">Visit</a>
+                </div>    
+            </div>
+            <div class="card">
+                <img src="images 6.jpeg">
+                <div class="card-content">
+                    <h1>content management system</h1>
+                    <p>To manage the content for your own blog and helps you in having good knowledge pf performance and SEO.</p>
+                    <a class="card-button" href="moreinfo.html">Visit</a>
+                </div>    
+            </div>
+            <div class="card">
+                <img src="img 2.jpeg">
+                <div class="card-content">
+                    <h1>budget and expense tracker</h1>
+                    <p>Records our budget helkps us in knowing our budget and expenses.</p>
+                    <a class="card-button" href="moreinfo.html">Visit</a>
+                </div>    
+            </div>
+        </div>
+    </body>
+</html>
